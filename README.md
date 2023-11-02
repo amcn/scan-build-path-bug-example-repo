@@ -1,8 +1,9 @@
 ### `scan-build` path computation bug
 
 This repo contains a project which demonstrates a bug in `scan-build`'s path computation.
-In order to reproduce the bug, you will need the `scan-build`, `meson`, and `ninja` installed. 
-Once they are installed, execute the following in this repo:
+In order to reproduce the bug using this example, you will need the `scan-build`, `meson`,
+and `ninja` installed. Once they are installed, execute the following in this repository's
+root:
 
 ```sh
 meson setup build
